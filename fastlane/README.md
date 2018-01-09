@@ -24,8 +24,6 @@ fastlane ios beta
 ```
 Submit a new Beta Build to Fabric
 
-This will also make sure the profile is up to date
-
 ----
 
 This README.md is auto-generated and will be re-generated every time [fastlane](https://fastlane.tools) is run.

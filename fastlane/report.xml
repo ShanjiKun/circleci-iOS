@@ -5,37 +5,42 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.012765">
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.016593">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.003151">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.003628">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: setup_circle_ci" time="0.0026">
+      <testcase classname="fastlane.lanes" name="2: setup_circle_ci" time="0.003568">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: cocoapods" time="2.590447">
+      <testcase classname="fastlane.lanes" name="3: cocoapods" time="2.826937">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: match" time="21.668919">
+      <testcase classname="fastlane.lanes" name="4: changelog_from_git_commits" time="0.027746">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: gym" time="32.569436">
+      <testcase classname="fastlane.lanes" name="5: get_version_number" time="0.751154">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: crashlytics" time="12.025038">
+      <testcase classname="fastlane.lanes" name="6: get_info_plist_value" time="0.010673">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: slack" time="0.664788">
         
       </testcase>
     

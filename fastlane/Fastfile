@@ -12,25 +12,24 @@ platform :ios do
   desc "Submit a new Beta Build to Fabric"
   lane :beta do
 
-    match(type: "adhoc")
-
-    gym(
-      scheme: "circleci-example",
-      export_method: "ad-hoc"
-    )
+    # match(type: "adhoc")
+    #
+    # gym(
+    #   scheme: "circleci-example",
+    #   export_method: "ad-hoc"
+    # )
 
     change_log = changelog_from_git_commits(commits_count: '1')
-    crashlytics(
-      api_token: "44ec49ba9b9b21b2295485e493da59aefcff8992",
-      build_secret: "dc4c33aed6fe70b29709550bca3e276253685d0a7204fafede9be49941ebdb51",
-      notes: change_log
-    )
+    # crashlytics(
+    #   api_token: "44ec49ba9b9b21b2295485e493da59aefcff8992",
+    #   build_secret: "dc4c33aed6fe70b29709550bca3e276253685d0a7204fafede9be49941ebdb51",
+    #   notes: change_log
+    # )
 
-    version_number = last_git_tag.strip
-	  build_number = get_build_number
-    complete_version_number = version_string(version_number, build_number)
+    version_number = get_version_number(scheme: "circleci-example")
+	  build_number = get_info_plist_value(path: "./circleci-example/Info.plist", key: "CFBundleVersion")
     slack(
-       message: "New dev build v#{complete_version_number} has just been uploaded to Fabric\nBuild notes:\n#{change_log}",
+       message: "New dev build v#{version_number}(#{build_number}) has just been uploaded to Fabric.",
        channel: "#ios"
     )
   end
