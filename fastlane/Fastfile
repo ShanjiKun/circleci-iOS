@@ -30,7 +30,7 @@ platform :ios do
 	  build_number = get_build_number
     complete_version_number = version_string(version_number, build_number)
     slack(
-       message: "New dev build v#{complete_version_number} has just been uploaded to Fabric\nBuild notes:\n#{change_log}",
+       message: "New dev build v#{complete_version_number} has just been uploaded to Fabric.\nBuild notes:\n#{change_log}",
        channel: "#ios"
     )
   end
