@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.012765">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.003151">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: setup_circle_ci" time="0.0026">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: cocoapods" time="2.590447">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: match" time="21.668919">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: gym" time="32.569436">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: crashlytics" time="12.025038">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

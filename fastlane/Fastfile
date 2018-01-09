@@ -1,0 +1,47 @@
+# Customize this file, documentation can be found here:
+# https://docs.fastlane.tools/actions/
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+min_fastlane_version("2.73.0")
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    setup_circle_ci
+    cocoapods
+    # cocoapods
+  end
+
+  desc "Submit a new Beta Build to Fabric"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    match(type: "adhoc")
+    gym(
+      scheme: "circleci-example",
+      export_method: "ad-hoc"
+    )
+    crashlytics(api_token: "44ec49ba9b9b21b2295485e493da59aefcff8992",
+              build_secret: "dc4c33aed6fe70b29709550bca3e276253685d0a7204fafede9be49941ebdb51")
+    #slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+  end
+end
+
+
+# More information about multiple platforms in fastlane: https://docs.fastlane.tools/advanced/#control-configuration-by-lane-and-by-platform
+# All available actions: https://docs.fastlane.tools/actions
+
+# fastlane reports which actions are used. No personal data is recorded.
+# Learn more at https://docs.fastlane.tools/#metrics

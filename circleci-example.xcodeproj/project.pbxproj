@@ -375,7 +375,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pixa.circleci.example2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "d980022a-f43f-4911-a06e-74c07a414569";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.pixa.circleci.example2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -386,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = X4X668DYKL;
 				INFOPLIST_FILE = "circleci-example/Info.plist";
@@ -393,7 +395,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pixa.circleci.example2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "d333da7f-a133-4e3b-a954-0dddc540b2ce";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.pixa.circleci.example2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
