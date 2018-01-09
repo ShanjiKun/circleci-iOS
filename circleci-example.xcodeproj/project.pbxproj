@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE76CCFBFAE98A95B644E44 /* libPods-circleci-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1CF18ADFC83F4ECFED0607 /* libPods-circleci-example.a */; };
+		92BC428320052A7600E52C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC428220052A7600E52C03 /* AppDelegate.m */; };
+		92BC428620052A7600E52C03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC428520052A7600E52C03 /* ViewController.m */; };
+		92BC428920052A7600E52C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BC428720052A7600E52C03 /* Main.storyboard */; };
+		92BC428B20052A7600E52C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BC428A20052A7600E52C03 /* Assets.xcassets */; };
+		92BC428E20052A7600E52C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BC428C20052A7600E52C03 /* LaunchScreen.storyboard */; };
+		92BC429120052A7600E52C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC429020052A7600E52C03 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92BC427E20052A7600E52C03 /* circleci-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "circleci-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BC428120052A7600E52C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92BC428220052A7600E52C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92BC428420052A7600E52C03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92BC428520052A7600E52C03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92BC428820052A7600E52C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92BC428A20052A7600E52C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92BC428D20052A7600E52C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92BC428F20052A7600E52C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BC429020052A7600E52C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A378923BA00ABC5D0D7E33AA /* Pods-circleci-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleci-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-circleci-example/Pods-circleci-example.release.xcconfig"; sourceTree = "<group>"; };
+		EA1CF18ADFC83F4ECFED0607 /* libPods-circleci-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-circleci-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BF2DEEB1FD16CF57E95E58 /* Pods-circleci-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleci-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circleci-example/Pods-circleci-example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92BC427B20052A7600E52C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE76CCFBFAE98A95B644E44 /* libPods-circleci-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094D9A1D5F1A2C58BC6FC474 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF2DEEB1FD16CF57E95E58 /* Pods-circleci-example.debug.xcconfig */,
+				A378923BA00ABC5D0D7E33AA /* Pods-circleci-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B8B5B4ABCCD997EA741A99F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1CF18ADFC83F4ECFED0607 /* libPods-circleci-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92BC427520052A7600E52C03 = {
+			isa = PBXGroup;
+			children = (
+				92BC428020052A7600E52C03 /* circleci-example */,
+				92BC427F20052A7600E52C03 /* Products */,
+				094D9A1D5F1A2C58BC6FC474 /* Pods */,
+				4B8B5B4ABCCD997EA741A99F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92BC427F20052A7600E52C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92BC427E20052A7600E52C03 /* circleci-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92BC428020052A7600E52C03 /* circleci-example */ = {
+			isa = PBXGroup;
+			children = (
+				92BC428120052A7600E52C03 /* AppDelegate.h */,
+				92BC428220052A7600E52C03 /* AppDelegate.m */,
+				92BC428420052A7600E52C03 /* ViewController.h */,
+				92BC428520052A7600E52C03 /* ViewController.m */,
+				92BC428720052A7600E52C03 /* Main.storyboard */,
+				92BC428A20052A7600E52C03 /* Assets.xcassets */,
+				92BC428C20052A7600E52C03 /* LaunchScreen.storyboard */,
+				92BC428F20052A7600E52C03 /* Info.plist */,
+				92BC429020052A7600E52C03 /* main.m */,
+			);
+			path = "circleci-example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92BC427D20052A7600E52C03 /* circleci-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BC429420052A7600E52C03 /* Build configuration list for PBXNativeTarget "circleci-example" */;
+			buildPhases = (
+				50244EF6630E29DF600F0AE7 /* [CP] Check Pods Manifest.lock */,
+				92BC427A20052A7600E52C03 /* Sources */,
+				92BC427B20052A7600E52C03 /* Frameworks */,
+				92BC427C20052A7600E52C03 /* Resources */,
+				3C62B9CB4297D625E294C7A3 /* [CP] Embed Pods Frameworks */,
+				FA1A7C1917F56A9107A96440 /* [CP] Copy Pods Resources */,
+				924294BB20052B3700B8A14D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "circleci-example";
+			productName = "circleci-example";
+			productReference = 92BC427E20052A7600E52C03 /* circleci-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92BC427620052A7600E52C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vinh Huynh";
+				TargetAttributes = {
+					92BC427D20052A7600E52C03 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 92BC427920052A7600E52C03 /* Build configuration list for PBXProject "circleci-example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92BC427520052A7600E52C03;
+			productRefGroup = 92BC427F20052A7600E52C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92BC427D20052A7600E52C03 /* circleci-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92BC427C20052A7600E52C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC428E20052A7600E52C03 /* LaunchScreen.storyboard in Resources */,
+				92BC428B20052A7600E52C03 /* Assets.xcassets in Resources */,
+				92BC428920052A7600E52C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C62B9CB4297D625E294C7A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-circleci-example/Pods-circleci-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50244EF6630E29DF600F0AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		924294BB20052B3700B8A14D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 44ec49ba9b9b21b2295485e493da59aefcff8992 dc4c33aed6fe70b29709550bca3e276253685d0a7204fafede9be49941ebdb51";
+		};
+		FA1A7C1917F56A9107A96440 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-circleci-example/Pods-circleci-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92BC427A20052A7600E52C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC428620052A7600E52C03 /* ViewController.m in Sources */,
+				92BC429120052A7600E52C03 /* main.m in Sources */,
+				92BC428320052A7600E52C03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92BC428720052A7600E52C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BC428820052A7600E52C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92BC428C20052A7600E52C03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BC428D20052A7600E52C03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92BC429220052A7600E52C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92BC429320052A7600E52C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92BC429520052A7600E52C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BF2DEEB1FD16CF57E95E58 /* Pods-circleci-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X4X668DYKL;
+				INFOPLIST_FILE = "circleci-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixa.circleci.example2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92BC429620052A7600E52C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A378923BA00ABC5D0D7E33AA /* Pods-circleci-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X4X668DYKL;
+				INFOPLIST_FILE = "circleci-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixa.circleci.example2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92BC427920052A7600E52C03 /* Build configuration list for PBXProject "circleci-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BC429220052A7600E52C03 /* Debug */,
+				92BC429320052A7600E52C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BC429420052A7600E52C03 /* Build configuration list for PBXNativeTarget "circleci-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BC429520052A7600E52C03 /* Debug */,
+				92BC429620052A7600E52C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92BC427620052A7600E52C03 /* Project object */;
+}
